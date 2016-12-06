@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Меню</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<video autoplay loop>
+   <source src="1.mp4" type="video/mp4">
+</video>
+<div>
+&nbsp
+</div>
+<div id="start" style="margin-top: 100px;">
+&nbsp
+</div>
+<div align="center" id="starti" class="button3M">
+	<input type="button" class="button3"  value="Начать" onclick="document.location.href='index.html'">
+</div>
+<div align="center" id="inst">
+	<input type="button" class="button3" value="Инструкция" onclick=" startInst(); start.innerHTML = 'Управление w a s d.<br> Чтобы пройти уровень нужно перетащить все ящики на полупрозрачные нажимные плиты соответствующего цвета и стать на красную нажимную плиту.<br> Одновременно можно толкать только один ящик.<br> Тянуть ящики нельзя.';">
+</div>
+
+<div align="center" id="back" class="backi" >
+	<input type="button"  class="button3" value="Назад" onclick=" backInst();">
+</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
